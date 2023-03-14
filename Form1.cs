@@ -80,7 +80,7 @@ namespace Project1_SGBD
             cs.Close();
             if (x >= 1)
             {
-                MessageBox.Show("The record has been updated");
+                MessageBox.Show("The record has been updated"); 
             }*/
         }
 
