@@ -69,9 +69,13 @@
             // 
             // dataGridViewParent
             // 
+            this.dataGridViewParent.AllowUserToAddRows = false;
+            this.dataGridViewParent.AllowUserToDeleteRows = false;
             this.dataGridViewParent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewParent.Location = new System.Drawing.Point(28, 140);
+            this.dataGridViewParent.MultiSelect = false;
             this.dataGridViewParent.Name = "dataGridViewParent";
+            this.dataGridViewParent.ReadOnly = true;
             this.dataGridViewParent.RowHeadersWidth = 51;
             this.dataGridViewParent.RowTemplate.Height = 29;
             this.dataGridViewParent.Size = new System.Drawing.Size(466, 470);
@@ -80,9 +84,11 @@
             // 
             // dataGridViewChild
             // 
+            this.dataGridViewChild.AllowUserToAddRows = false;
             this.dataGridViewChild.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewChild.Location = new System.Drawing.Point(511, 140);
             this.dataGridViewChild.Name = "dataGridViewChild";
+            this.dataGridViewChild.ReadOnly = true;
             this.dataGridViewChild.RowHeadersWidth = 51;
             this.dataGridViewChild.RowTemplate.Height = 29;
             this.dataGridViewChild.Size = new System.Drawing.Size(468, 470);
